@@ -7,6 +7,7 @@
 import java.io.*;
 import java.util.List;
 import org.junit.*;
+import org.junit.runners.MethodSorters;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.remote.*;
@@ -15,6 +16,7 @@ import org.openqa.selenium.remote.*;
  *
  * @author doratt
  */
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class HappyPath {
 
     private static ChromeDriverService service;
